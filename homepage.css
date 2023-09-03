@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 200px;
+    width: 100%;
+    background-color: #040D12;
+    display: flex;
+    align-items: center;
+
+}
+.nav-logo{
+    height:150px ;
+    width: 150px;
+
+}
+.logo1{
+    height: 126.5px;
+    width: 303.5px;
+    background-image: url(Trichod_prokashoni-removebg-rect.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+}
+.deliver-sec{
+    height: 80px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 500px;
+}
+.deliver-text{
+    color: white;
+    font-size: 25px;
+}
+.border{
+    border: 2px solid transparent;
+   
+}
+.border:hover{
+    border: 2px solid white;
+}
+
+.searchbar{
+    height:50px;
+    width: 700px;
+    background-color: #54322A;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    margin-left: 200px;
+}
+.search-select{
+    height: 52px;
+    border: none;
+    width: 50px;
+    background-color:#f3f3f3;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}
+
+
+.search-input{
+    width: 700px;
+    height: 100%;
+    font-size: 20px;
+    border: 0px;
+    border: none;
+}
+.search-icon{
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 52px;
+    background-color: #e0af8a;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color:;
+    font-size: 30px;
+    border: none;
+    
+}
+.sign-in{
+    height: 50px;
+    width: 150px;
+    color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-left: 200px;
+   
+}
+.sign-in-content{
+    display: flex;
+    align-items: center;
+    
+}
+.sign-in-text{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.searchbar:hover{
+    border: 6px solid #e0af8a;
+    border-radius: 12px;
+}
+.track-order{
+    display: flex;
+    color: white;
+    align-items: center;
+    height: 60px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+}
+.Track-text{
+    margin-left: 10px;
+    font-size: 20px;
+
+}
+.menu{
+   
+        display: flex;
+        color: white;
+        align-items: center;
+        height: 100px;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 100px;
+        margin-left: 200px;
+       
+
+}
+.menu-text{
+    margin-left: 10px;
+    font-size: 30px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+.menu i{
+   font-size: 30px;
+}
+/*body*/
+.bookself{
+    height: 2000px;
+    width:100% ;
+    background-color: #cfdfd9;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    
+    
+}
+.box{
+    height: 800px;
+    width: 600px;
+    background-color:#cfdfd9 ;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.img{
+    margin-bottom: 40px;
+    box-shadow: 10px 10px 20px #555;
+}
+.img1{
+    height: 540px;
+    width: 360px;
+    background-image: url(1952.webp);
+    margin-top: 50px;
+}
+.img2{
+    height: 540px;
+    width: 360px;
+    background-image: url(alba\ nera\ cover.webp);
+    margin-top: 50px;
+}
+.img3{
+    height: 540px;
+    width: 360px;
+    background-image: url(ogochora.webp);
+    margin-top: 50px;
+}
+
+.img4{
+    height: 540px;
+    width: 360px;
+    background-image: url(Nemsis.webp);
+    margin-top: 50px;
+}
+.box p{
+    font-size: 25px;
+    
+    font-weight: 500;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.img5{
+    height: 540px;
+    width: 360px;
+    background-image: url(gilgamesh.webp);
+    margin-top: 50px;
+}
+.img6{
+    height: 540px;
+    width: 360px;
+    background-image: url(finix.webp);
+    margin-top: 50px;
+}
+.img7{
+    height: 540px;
+    width: 360px;
+    background-image: url(Noukadubi.webp);
+    margin-top: 50px;
+}
+
+.img8{
+    height: 540px;
+    width: 360px;
+    background-image: url(Devdas.webp);
+    margin-top: 50px;
+}
+
+
+
+
+.follow-text{
+    height: 300px;
+    width: 100%;
+    background-color: #81c2be;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: black;
+    flex-direction: column;
+    padding-top: 50px;
+   
+
+}
+.follow-icon{
+    height: 400px;
+    width: 100%;
+    color: black;
+    font-size: 30px;
+    background-color: #81c2be;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+
+}
+.main-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width:800px;
+}
+.main-icons i{
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+hr{
+    width: 600px;
+    background-color: black;
+    height: 3px;
+    margin-top: 10px;
+    
+}
+.footer-section{
+    height: 250px;
+    width: 100%;
+    background-color: #033444;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-section p{
+    font-size: 25px;
+    
+}
+.footer-section h6{
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
